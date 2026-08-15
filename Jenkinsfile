@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git 'URL_DE_TU_REPOSITORIO'
+                git 'https://github.com/ferbo11/jenkins-docker-boton.git'
             }
         }
 
